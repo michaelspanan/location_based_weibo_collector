@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 import re
 import os
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 import logging
 
 # Configure logging
@@ -251,7 +251,7 @@ class WeiboDataCollector:
             return weibo_posts
     
     def fetch_weibo_data_from_api(self, api_url: str, location: str, page: int, 
-                                 coordinates: str = '', retry_count: int = 3, delay: float = 1.0) -> tuple[List[Dict], bool]:
+                                 coordinates: str = '', retry_count: int = 3, delay: float = 1.0) -> Tuple[List[Dict], bool]:
         """
         Fetch Weibo data from API URL with retry mechanism.
         
