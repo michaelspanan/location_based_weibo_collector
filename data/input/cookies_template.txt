@@ -1,0 +1,13 @@
+# Weibo Cookies Template
+# Copy this file to cookies.txt and add your actual Weibo cookies
+# Format: name=value
+# Example:
+# SUB=your_sub_cookie_value
+# SSOLoginState=your_login_state_value
+# _T_WM=your_wm_cookie_value
+# 
+# To get your cookies:
+# 1. Log into Weibo in your browser
+# 2. Open Developer Tools (F12)
+# 3. Go to Application/Storage > Cookies
+# 4. Copy the cookie values and paste them here 

@@ -1,0 +1,1 @@
+# Tests package for Location-based Weibo Data Collector 
