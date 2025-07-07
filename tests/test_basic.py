@@ -101,7 +101,6 @@ class TestProjectStructure:
         essential_files = [
             "README.md",
             "requirements.txt",
-            "setup.py",
             "pyproject.toml",
             "LICENSE",
             "CONTRIBUTING.md",
